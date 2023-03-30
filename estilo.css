@@ -1,0 +1,101 @@
+html, body{
+	background:background: rgb(195,229,184);
+background: -moz-linear-gradient(169deg, rgba(195,229,184,1) 0%, rgba(1,196,184,1) 100%);
+background: -webkit-linear-gradient(169deg, rgba(195,229,184,1) 0%, rgba(1,196,184,1) 100%);
+background: linear-gradient(169deg, rgba(195,229,184,1) 0%, rgba(1,196,184,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c3e5b8",endColorstr="#01c4b8",GradientType=1);;
+}
+
+header{
+	text-align: center;
+	padding: 10px;
+	color: white;
+	background: background: rgb(141,179,128);
+background: -moz-linear-gradient(169deg, rgba(141,179,128,1) 0%, rgba(0,121,114,1) 100%);
+background: -webkit-linear-gradient(169deg, rgba(141,179,128,1) 0%, rgba(0,121,114,1) 100%);
+background: linear-gradient(169deg, rgba(141,179,128,1) 0%, rgba(0,121,114,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8db380",endColorstr="#007972",GradientType=1);
+}
+
+div.container.combos img.img-combos{
+	border-radius: 25px;
+	padding: 25px;
+	border: 2px solid black;
+	margin: 10px;
+	background: rgba(255, 255, 255, 0.7);
+
+
+}
+
+div.container.combos {
+	text-align: center;
+	
+	padding: 15px;
+}
+div.container.mensagem{
+	text-align: center;
+	margin:30px auto 30px auto;
+
+}
+div.caixa-mensagem{
+	background: background: rgb(0,15,121);
+background: -moz-linear-gradient(152deg, rgba(0,15,121,1) 41%, rgba(182,255,253,1) 100%);
+background: -webkit-linear-gradient(152deg, rgba(0,15,121,1) 41%, rgba(182,255,253,1) 100%);
+background: linear-gradient(152deg, rgba(0,15,121,1) 41%, rgba(182,255,253,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000f79",endColorstr="#b6fffd",GradientType=1);
+border-radius: 50px;
+color: white;
+text-align: center;
+font-size: 2.4em;
+min-height: 200px;
+min-width: 200px;
+padding: 10px;
+}
+
+/*-----------------------------------  btn-------------------------------------------------------*/
+section#sbtcont{
+  
+  text-align: center;
+
+}
+
+div.btcont{
+display: inline-block;
+}
+
+div.btcont .btn-custom{
+  
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.6s;
+    padding: 10px 20px;
+    margin: 10px auto 10px auto;
+   
+}
+
+
+div.btcont.ver-mais .btn-custom{
+  color: white;
+  background:rgba(30, 48, 80, 1.0);
+  padding: 10px 70px 10px 70px;
+}
+div.btcont.ver-mais .btn-custom:hover{
+  color: black;
+  background:#00ffff;
+
+}
+
+div.btcont.what .btn-custom{
+  color: white;
+  background:#2ab200;
+  font-size: 1.8em;
+}
+div.btcont.what .btn-custom:hover{
+  color: white;
+  background:black;
+  text-align: center;
+
+}
+
